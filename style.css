@@ -4,24 +4,29 @@
 	margin: 0;
 }
 body {
-	background-color: #E0E0E0;
+    background-color: #080E33;/* #E0E0E0;*/
+    color: white;
 }
 .container {
 	width: 100%;
 	height: 100%;
-	align-items: center;
+    align-items: center;
 }
 
 h1, .section-heading{ 
- color: black;
+ color: white;;
  font-family: "Helvetica";
 }
 
 .section-heading{
 	margin-left: 10px;
-	margin-top: 5px;
+    margin-top: 5px;
+    color: white;
 }
 
+h5, h3{
+    color: white;
+}
 
 .main-content{
 	display: flex;
@@ -40,7 +45,7 @@ h1, .section-heading{
 .options{
 	width: 100%;
 	height: 100%;
-	background-color: white;
+    background-color: #111E6C; /* white;*/
 }
 
 .option-icons{
@@ -74,7 +79,8 @@ h1, .section-heading{
 .course-heading{
 	display: flex;
 	align-self: flex-end;
-	font-family: "Helvetica";
+    font-family: "Helvetica";
+    color: white;
 }
 
 .skill-heading, 
@@ -113,8 +119,8 @@ h1, .section-heading{
 	margin-right: 0px;
 	width: 85%;
 	height: 90vh;
-	background-color: #E0E0E0;
-	overflow-y: scroll;
+	background-color: #080E33;/* #E0E0E0;*/
+    overflow-y: scroll;
 }
 
 .bottom-row{
@@ -124,7 +130,7 @@ h1, .section-heading{
 	left: 0;
 	width: 100%;
 	height: 70px;
-	background-color: #F0F0F0;
+	background-color: #0C154A;/*#F0F0F0;*/
     margin-bottom: 0px;
 }
 
@@ -141,7 +147,7 @@ h1, .section-heading{
 {
 	width: 100%;
 	height: 200px;
-	background-color: #E0E0E0;
+	background-color: #080E33; /* #E0E0E0;*/
 	margin-top: 0px;
 }
 
@@ -167,7 +173,7 @@ h1, .section-heading{
 .name, .title{
 	font-family: "Helvetica";
 	margin-left: 10px;
-	color: black;
+	color: white;;
 }
 
 .search-div{
@@ -187,7 +193,7 @@ h1, .section-heading{
 	height: 30px;
 	border-radius: 30px;
 	border: solid;
-	border-color: black;
+	border-color: #080E33;
 	outline: none;
 	padding: 15px;
 }

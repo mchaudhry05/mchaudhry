@@ -20,11 +20,11 @@ var locationOfPlayPause = ["images/pause.png", "images/play-button.png"];
 
 playPauseButton.addEventListener("click", function(){
     if (playPauseButton.alt === "play"){
-        playPauseButton.src = "images/play-button.png";
+        playPauseButton.src = "images/play-button-white.png";
         playPauseButton.alt = "pause";
         songPlayer.pause();
     }else if(playPauseButton.alt === "pause"){
-        playPauseButton.src = "images/pause.png";
+        playPauseButton.src = "images/pause-white.png";
         playPauseButton.alt = "play";
         songPlayer.play();
     }
