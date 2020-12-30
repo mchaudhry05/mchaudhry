@@ -120,7 +120,8 @@ h5, h3{
 	width: 85%;
 	height: 90vh;
 	background-color: #080E33;/* #E0E0E0;*/
-    overflow-y: scroll;
+	overflow-y: scroll;
+	padding-left: 15px;
 }
 
 .bottom-row{
@@ -351,6 +352,7 @@ h5, h3{
 
 	.right-col{
 		width: 100%;
+		padding-left: 15px;
 	}
 
 	.name-section, 
@@ -377,6 +379,10 @@ h5, h3{
 
 .labels{
     margin-bottom: 15px;
+}
+
+.right-col{
+	padding-left: 10px;
 }
 
 }
